@@ -53,6 +53,7 @@ header{
 main{
     background-color: #ebebeb;
     width: 90%;
+    padding-bottom: 2rem;
     margin: auto;
 }
 .section-ultimos, .section-ofertas{
