@@ -235,7 +235,8 @@ footer{
         align-items: center;        
     }
     .header-list{
-        display: flex;    }
+        display: flex;
+    }
     .header-list>li{
         margin: 0px 10px;
     }
