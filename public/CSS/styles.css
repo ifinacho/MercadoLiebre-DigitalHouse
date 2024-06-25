@@ -16,14 +16,34 @@ header{
     flex-wrap: wrap;
     align-items: center;
 }
-.img-logo{
+#img-logo{
     width: 50%;
     max-width: 300px;
     padding: 15px 10px 5px 10px;
 }
 .header-form{
+    display: flex;
+    gap: 0;
     width: 50%;
-    padding: 5px 15px 15px;
+}
+.form__input{
+    width: 30vw;
+    margin: 1rem 0;
+    padding: 0.5rem 0.7rem;
+    background-color: white;
+    border-radius: 0.25rem 0 0 0.25rem;
+    border: none;
+}
+.form__button{
+    margin: 1rem 0;
+    padding: 0 0.75rem;
+    border-radius: 0 0.3rem 0.3rem 0;
+    border: none;
+    background-color: white;   
+    padding: 0.5rem;
+}
+.fa-search{
+    color: #666;
 }
 .header-message{
     text-align: center;
@@ -33,7 +53,14 @@ header{
     padding-left: 15px;
     padding-right: 15px;
     list-style: none;
-    display: none;;
+    display: none;
+}
+.header-list__item{
+    font-size: 0.9rem;
+}
+.header-list__item>a:link, :visited, :hover, :active{
+    text-decoration:none;
+    color: black;
 }
 .burger-menu{    
     display: flex;
@@ -222,7 +249,7 @@ footer{
     }
     .header-message{
         margin: unset;
-        padding-right: 15px;
+        padding-right: 4rem;
     }
     .section-ultimos__article, .section-ofertas__article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -232,7 +259,8 @@ footer{
         height: 50px;
         display: flex;
         justify-content: space-between;
-        align-items: center;        
+        align-items: center;
+        padding: 0 1.3rem;       
     }
     .header-list{
         display: flex;
